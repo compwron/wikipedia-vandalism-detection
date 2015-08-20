@@ -13,7 +13,7 @@ module Wikipedia
         def calculate(edit)
           super
 
-          <<-DOC
+=begin
           revision = edit.new_revision
           page_id = edit.page.id || Wikipedia::api_request({ titles: edit.page.title }).xpath("//page/@pageid").first
 
@@ -31,7 +31,7 @@ module Wikipedia
 
             trust = sum / contributions.count.to_f
           end
-          DOC
+=end
           trust = 0.0
 
           trust
