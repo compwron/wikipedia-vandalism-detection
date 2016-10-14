@@ -14,4 +14,4 @@ ENV["BUNDLE_GEMFILE"] ||= File.expand_path("../../Gemfile",
 require "rubygems"
 require "bundler/setup"
 
-load Gem.bin_path("bio", "br_biogetseq.rb")
+load Gem.bin_path("wikipedia-vandalism_detection", "br_biogetseq.rb")
