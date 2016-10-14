@@ -1,0 +1,70 @@
+= ruby-band
+
+Data mining and machine learning algorithms for Ruby
+
+== Installation
+
+Install the 'jbundle' gem for JRuby before trying to install the
+'ruby-band' gem. Maven is also required for .jars automatic download and
+installation. On Ubuntu/Debian Maven should already be installed and on OSX
+system you can get it from Brew
+
+If you want to use 'ruby-band' APIs without installing the gem you need to run
+command 'rake -T' once before requiring the gem in your script (this is
+necessary for jbundler to download the '.jar' files and subsequently set the
+Java classpath). Otherwise use:
+
+    gem install ruby-band
+
+== Description
+
+ruby-band was created by Alberto Arrigoni as part of Google’s Summer of Code 2013. It is part of SciRuby.
+
+== Usage
+
+For a short tutorial on ruby-band functions and capabilities please visit our wiki section here on Github
+
+== Developers
+
+To use the library 
+
+        require 'ruby-band'
+
+The API doc is online. For more code examples see also the test files in
+the source tree.
+        
+== Project home page
+
+Information on the source tree, documentation, issues and how to contribute, see
+
+  http://github.com/arrigonialberto86/ruby-band
+
+The BioRuby community is on IRC server: irc.freenode.org, channel: #bioruby.
+
+== Contributing to ruby-band
+ 
+ ruby-band is part of SciRuby, a collaborative effort to bring scientific computation to Ruby. If you want to help, please do so!
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
+* Fork the project.
+* Start a feature/bugfix branch.
+* Commit and push until you are happy with your contribution.
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally. Cucumber tests (stored in the 'features' folder) are a great way to draft 
+tutorial sections along with tests.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+
+== Cite
+
+  If you use this software, please cite one of
+ 
+* [BioRuby: bioinformatics software for the Ruby programming language](http://dx.doi.org/10.1093/bioinformatics/btq475)
+* [Biogem: an effective tool-based approach for scaling up open source software development in bioinformatics](http://dx.doi.org/10.1093/bioinformatics/bts080)
+
+
+== License
+
+Copyright (c) 2010–13, The Ruby Science Foundation.
+All rights reserved. See LICENSE.txt for further details.
+
