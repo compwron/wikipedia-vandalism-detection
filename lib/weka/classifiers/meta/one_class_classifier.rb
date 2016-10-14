@@ -1,6 +1,6 @@
 require 'active_support/core_ext/module'
 require 'ruby-band'
-require 'ruby-band/weka/classifiers/class_builder'
+require 'class_builder'
 
 module Weka
   module Classifiers
